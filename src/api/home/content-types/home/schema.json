@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "home.hero-block",
+        "home.hero-alt",
+        "home.expertise",
+        "home.partners",
+        "home.share-value-features",
+        "home.opdracht-gevers",
+        "home.reviews"
+      ],
+      "required": true,
+      "min": 3
+    }
+  }
+}

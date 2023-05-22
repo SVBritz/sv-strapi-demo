@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_reviews",
+  "info": {
+    "displayName": "Review",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "review": {
+      "type": "text",
+      "required": true
+    },
+    "client": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "client_position": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

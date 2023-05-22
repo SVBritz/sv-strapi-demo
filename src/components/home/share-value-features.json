@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_share_value_features",
+  "info": {
+    "displayName": "Share Value Features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page_content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.basic-page-section",
+      "required": true
+    },
+    "our_features": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::exertise.exertise"
+    }
+  }
+}

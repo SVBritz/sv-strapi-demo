@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_content_basic_page_sections",
+  "info": {
+    "displayName": "Basic Page Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": false
+    }
+  }
+}

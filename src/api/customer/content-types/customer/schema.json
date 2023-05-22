@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "singularName": "customer",
+    "pluralName": "customers",
+    "displayName": "Customer Logo's",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Customer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.expertises",
+      "required": true
+    }
+  }
+}

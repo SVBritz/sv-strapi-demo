@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_hero_alts",
+  "info": {
+    "displayName": "Secondary Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "call_to_action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.call-to-action"
+    }
+  }
+}

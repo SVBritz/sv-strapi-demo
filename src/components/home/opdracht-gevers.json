@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_home_opdracht_gevers",
+  "info": {
+    "displayName": "Opdracht Gevers"
+  },
+  "options": {},
+  "attributes": {
+    "page_content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.basic-page-section",
+      "required": true
+    },
+    "our_customers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::customer.customer"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_content_call_to_actions",
+  "info": {
+    "displayName": "Call to Action",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

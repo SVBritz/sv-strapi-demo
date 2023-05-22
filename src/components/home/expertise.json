@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_home_expertise",
+  "info": {
+    "displayName": "Expertise",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Onze expertises"
+    },
+    "our_expertises": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::expertise.expertise"
+    }
+  }
+}
